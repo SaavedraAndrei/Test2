@@ -86,11 +86,6 @@
             <inertia-link
               class="collapse-item"
               :href="$route('administrativa.reporte_asistencia')"
-              v-if="
-                $page.props.user_permissions.permisos.includes(
-                  'GESTIÓN ADMINISTRATIVA/LISTAR CONGRESOS'
-                )
-              "
             >
               Reporte de asistencias
             </inertia-link>
